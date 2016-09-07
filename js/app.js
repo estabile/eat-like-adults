@@ -24,6 +24,6 @@ var vegetables = ["Broccoli", "Asparagus", "Romaine Lettuce", "Green Beans",
 
 function redirect()
     {
-    var url = "http://i.imgur.com/bZgYdGg.jpg";
+    var url = "http://www.google.com/search?q=" + encodeURIComponent(document.getElementById("message").innerHTML);
     window.location.href=(url);
     }
