@@ -18,9 +18,15 @@
     <div class="row">
       <div class="large-12 columns"; align ="center">
         <div class="callout" align ="center">
-          <h3>Start By Generating a Meal Combo,<br> which includes one protein, one carb and one vegetable.</h3>
+          <h3>Start By Generating a random meal combo,<br> which includes one protein, one carb and one vegetable.</h3>
           <p>If you don't like what you see, click "Eww. That's Gross."</p>
           <p>Or click "Search My Option" to search your meal combo.</p>
+
+
+        <h5>Dietary Restrictions</h5>
+          <input id="vegetarian" type="checkbox"><label for="vegetarian">Vegetarian</label>
+          <input id="vegan" type="checkbox"><label for="vegan">Vegan</label>
+          <!--<input id="glutenFree" type="checkbox"><label for="glutenFree">Gluten Free</label> -->
 
 
     <div class="row"; align = "center">
@@ -40,7 +46,7 @@
         <div class="row">
           <div class="large-6 medium-6 columns">
             <div class="primary callout" align = center>
-              <input class="success button" type="button" value="Search My Option" onclick="redirect()" />
+              <input class="success button" type="button" id="searchIt" value="Search My Option" onclick="redirect()" />
             </div>
           </div>
           <div class="large-6 medium-6 columns">
